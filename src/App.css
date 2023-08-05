@@ -21,7 +21,7 @@
 --body-font: "Poppins", sans-serif;
 
 /* 5rem = 8px | 1rem = 16px */
---big-font-size: 3rem;
+--big-font-size: 3.2rem;
 --h1-font-size: 2.25rem;
 --h2-font-size: 1.5rem;
 --h3-font-size: 1.25rem;
@@ -110,7 +110,7 @@ img{
 
 /* reusable css classe */
 .section{
-  padding: 7rem  29rem;
+  padding: 6rem 0 2rem;
 }
 .section_title{
   font-size: var(--h1-font-size);
