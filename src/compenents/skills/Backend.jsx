@@ -8,7 +8,7 @@ const Backend = () => {
     <div className="skills_box">
         <div className="skills_group">
             <div className="skills_data">
-            <i class='bx bx-badge-check' ></i>
+            <i className='bx bx-badge-check' ></i>
 
             <div>
                 <h3 className="skills_name">C Ansi</h3>
@@ -17,7 +17,7 @@ const Backend = () => {
             </div>
 
             <div className="skills_data">
-            <i class='bx bx-badge-check' ></i>
+            <i className='bx bx-badge-check' ></i>
 
             <div>
                 <h3 className="skills_name">SQL</h3>
