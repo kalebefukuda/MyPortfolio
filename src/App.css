@@ -21,7 +21,7 @@
 --body-font: "Poppins", sans-serif;
 
 /* 5rem = 8px | 1rem = 16px */
---big-font-size: 3.5rem;
+--big-font-size: 3rem;
 --h1-font-size: 2.25rem;
 --h2-font-size: 1.5rem;
 --h3-font-size: 1.25rem;
@@ -110,7 +110,7 @@ img{
 
 /* reusable css classe */
 .section{
-  padding: 6rem 0 2rem;
+  padding: 7rem  29rem;
 }
 .section_title{
   font-size: var(--h1-font-size);
@@ -178,8 +178,16 @@ img{
 
 /* for medium devices */
 @media  screen and (max-width: 768px) {
+  body{
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section{
-    padding: 22rem 0 4rem;
+    padding: 2rem 0 4rem;
+  }
+  
+  .section_subtitle{
+    margin-bottom: var(--mb-3);
   }
 }
 
