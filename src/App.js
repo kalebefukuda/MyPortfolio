@@ -5,6 +5,7 @@ import About from './compenents/about/About';
 import Skills from './compenents/skills/Skills';
 import Services from './compenents/services/Services';
 import Qualification from './compenents/qualification/Qualification';
+import Testimonials from './compenents/testimonials/Testimonials';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Testimonials />
       </main>
     </>
   );
