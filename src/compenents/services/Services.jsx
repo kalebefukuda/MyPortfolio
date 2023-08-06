@@ -6,7 +6,7 @@ const Services = () => {
 
     const toggleTab = (index) => {
         setToggleState(index);
-    }
+    };
   return (
     <section className="services section" id="services">
         <h2 className='section_title'>Services</h2>
@@ -76,10 +76,7 @@ const Services = () => {
                     Striving to always achieve excellence.</p>
 
                     <ul className="services_modal-services grid">
-                        <li className="services_modal-services">
-                            <i className="uil uil-check-circle services_modal-icon"></i>
-                            <p className="services_modal-info">I develop the user interface.</p>
-                        </li>
+                    
 
                         <li className="services_modal-service">
                             <i className="uil uil-check-circle services_modal-icon"></i>
