@@ -7,6 +7,7 @@ import Services from './compenents/services/Services';
 import Qualification from './compenents/qualification/Qualification';
 import Testimonials from './compenents/testimonials/Testimonials';
 import Contact from './compenents/contact/Contact';
+import Footer from './compenents/footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Qualification />
         <Testimonials />
         <Contact />
+        <Footer />
       </main>
     </>
   );
