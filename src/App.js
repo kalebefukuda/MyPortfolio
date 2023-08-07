@@ -5,6 +5,7 @@ import About from './compenents/about/About';
 import Skills from './compenents/skills/Skills';
 import Services from './compenents/services/Services';
 import Qualification from './compenents/qualification/Qualification';
+import Work from './compenents/work/Work';
 import Testimonials from './compenents/testimonials/Testimonials';
 import Contact from './compenents/contact/Contact';
 import Footer from './compenents/footer/Footer';
@@ -22,6 +23,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
         
