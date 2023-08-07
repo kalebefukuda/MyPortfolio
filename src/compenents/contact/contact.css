@@ -105,6 +105,11 @@
 .contact_form-area textarea{
     resize: none;      /*capacidade de redimensionar item html em caixas de text etc..*/
 }
+.svgSAY{
+    margin-left: 0.4rem;
+    position: relative;
+    top: -1px;
+}
 
 /* breakpoints */
 /* for large devices */

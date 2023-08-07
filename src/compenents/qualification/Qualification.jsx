@@ -14,7 +14,7 @@ const Qualification = () => {
 
         <div className="qualification_container container">
             <div className="qualification_tabs">
-                <div className={toggleState ===1 ? "qualification_button qualification_active button--flex" : "qualification_button button--flex"}
+                <div className={toggleState === 1 ? "qualification_button qualification_active button--flex" : "qualification_button button--flex"}
                 onClick={() => toggleTab(1)}
                 >
                     <i className="uil uil-graduation-cap qualification_icon"></i> Education
@@ -28,7 +28,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification_sections">
-                <div className={toggleState ===1 ? "qualification_content qualification_content-active" : "qualification_content"}>
+                <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
 
                     <div className="qualification_data">
                         
@@ -62,7 +62,8 @@ const Qualification = () => {
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i> 2021 - 2022
                             </div>
-                        </div> 
+                        </div>  
+                        
                     </div>
 
                     <div className="qualification_data">
@@ -72,7 +73,7 @@ const Qualification = () => {
                             <span className="qualification_subtitle"> Rocketseat - Company</span>
 
                             <div className="qualification_calender">
-                                <i className="uil uil-calendar-alt"></i> 2023 - Studying
+                                <i className="uil uil-calendar-alt"></i> 2023 - Finished
                             </div>
                         </div>
 
@@ -80,6 +81,25 @@ const Qualification = () => {
                             <span className="qualification_rounder"></span>
                             <span className="qualification_line"></span>
                         </div>
+                    </div>
+
+                    <div className="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                        <div>
+                            <h3 className="qualification_title">Data Organizer</h3>
+
+                            <span className="qualification_subtitle"> Dakopeças - Company</span>
+
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                            </div>
+                        </div> 
+                        
                     </div>
                 </div>
             </div>
