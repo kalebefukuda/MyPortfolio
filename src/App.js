@@ -8,6 +8,7 @@ import Qualification from './compenents/qualification/Qualification';
 import Testimonials from './compenents/testimonials/Testimonials';
 import Contact from './compenents/contact/Contact';
 import Footer from './compenents/footer/Footer';
+import ScrollUp from './compenents/scrollup/ScrollUp';
 
 
 function App() {
@@ -23,8 +24,11 @@ function App() {
         <Qualification />
         <Testimonials />
         <Contact />
-        <Footer />
+        
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   );
 }
