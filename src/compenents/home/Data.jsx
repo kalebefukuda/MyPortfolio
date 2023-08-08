@@ -10,7 +10,7 @@ const Data = () => {
     <a href="#contact" className="button button--flex">
         Say Hello
         <svg
-                  className="button__icon"
+                  className="button__icon svgSAY"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"

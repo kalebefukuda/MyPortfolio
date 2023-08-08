@@ -9,6 +9,8 @@
 /* colors */
 /* color mode HSL(hue,saturation,lightness) */
 
+/* ROOT CONFIG COLOR */
+
 --hue: 0;
 --sat: 0%;
 --title-color: hsl(var(--hue), var(--sat), 20%);
@@ -16,6 +18,9 @@
 --text-color: hsl(var(--hue), var(--sat), 46%);
 --body-color: hsl(var(--hue), var(--sat), 98%);
 --container-color: #fff;
+
+
+
 
 /* font and typography */
 --body-font: "Poppins", sans-serif;

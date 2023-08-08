@@ -28,6 +28,14 @@ margin-bottom: var(--mb-2);
     color: var(--title-color);
     margin-bottom: var(--mb-0-5);
 }
+
+.svgCV{
+    margin-left: 0.4rem;
+    position: relative;
+    top: -2px;
+}
+
+
 .about_title{
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
