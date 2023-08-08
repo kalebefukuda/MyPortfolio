@@ -7,9 +7,10 @@ import Work5 from "../../assets/work5.jpg";
 export const projectsData = [
     {
       id: 1,
-      image: Work1,
+      image:  Work1,
       title: "Web design",
       category: "web",
+      demoLink: "../../compentents/projects/Projeto-TouchTech/Main page/index.html"
     },
     {
       id: 2,
