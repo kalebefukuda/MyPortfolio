@@ -8,7 +8,7 @@ export const Data = [
       image: Image1,
       title: "Acsa Fukuda",
       description:
-        "A really good job, I believe it will be a great developer.",
+        "A really good job, I believe he will be a great developer.",
     },
     {
       id: 2,
