@@ -15,7 +15,7 @@ export const projectsData = [
     {
       id: 2,
       image: Work2,
-      title: "Page Links",
+      title: "Page Links ",
       category: "web",
       demoLink: "https://devlinks-rosy.vercel.app"
     },
