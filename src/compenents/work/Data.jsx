@@ -1,5 +1,5 @@
 import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
+import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
@@ -8,15 +8,16 @@ export const projectsData = [
     {
       id: 1,
       image:  Work1,
-      title: "Web design",
+      title: "Dev Links",
       category: "web",
       demoLink: "../../compentents/projects/Projeto-TouchTech/Main page/index.html"
     },
     {
       id: 2,
       image: Work2,
-      title: "App movil",
+      title: "Calculator",
       category: "app",
+      demoLink: "https://calculator-three-bay-23.vercel.app/"
     },
     {
       id: 3,
