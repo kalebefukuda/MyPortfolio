@@ -1,7 +1,7 @@
 import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
-import Work4 from "../../assets/work4.jpg";
+import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.jpg";
 
 export const projectsData = [
@@ -29,8 +29,10 @@ export const projectsData = [
     {
       id: 4,
       image: Work4,
-      title: "App movil",
-      category: "app",
+      title: "Page Links",
+      category: "web",
+      demoLink: "https://devlinks-rosy.vercel.app"
+      
     },
     {
       id: 5,
