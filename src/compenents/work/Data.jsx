@@ -21,7 +21,7 @@ export const projectsData = [
     },
     {
       id: 3,
-      image: Work3,
+      image: Work3 ,
       title: "Modern Login",
       category: "design",
       demoLink: "https://modern-login-page-one.vercel.app/"
