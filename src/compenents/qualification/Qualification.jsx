@@ -101,6 +101,41 @@ const Qualification = () => {
                         </div> 
                         
                     </div>
+                    <div className="qualification_data">
+                        
+                        <div>
+                            <h3 className="qualification_title"> Pro Figma | UI Design</h3>
+                            <span className="qualification_subtitle"> Udemy - Company</span>
+
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> 2023 - Finished
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                    </div>
+                    <div className="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                        <div>
+                            <h3 className="qualification_title">Industrial Automation Assistant</h3>
+
+                            <span className="qualification_subtitle"> Realtec Automação - Company</span>
+
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> 2023 - Current
+                            </div>
+                        </div> 
+                        
+                    </div>
+                    
                 </div>
             </div>
         </div>
