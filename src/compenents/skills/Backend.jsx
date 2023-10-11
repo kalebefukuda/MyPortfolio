@@ -14,6 +14,7 @@ const Backend = () => {
                 <h3 className="skills_name">C Ansi</h3>
                 <span className="skills_level">Intermediary</span>
             </div>
+            
             </div>
 
             <div className="skills_data">
@@ -21,6 +22,14 @@ const Backend = () => {
 
             <div>
                 <h3 className="skills_name">SQL</h3>
+                <span className="skills_level">Basic</span>
+            </div>
+            </div>
+            <div className="skills_data">
+            <i className='bx bx-badge-check' ></i>
+
+            <div>
+                <h3 className="skills_name">C#</h3>
                 <span className="skills_level">Basic</span>
             </div>
             </div>
