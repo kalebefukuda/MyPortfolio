@@ -29,9 +29,9 @@ export const projectsData = [
     {
       id: 4,
       image: Work4,
-      title: "Page Links",
-      category: "web",
-      demoLink: "https://devlinks-rosy.vercel.app"
+      title: "Calculator",
+      category: "app",
+      demoLink: "https://calculator-three-bay-23.vercel.app/"
       
     },
     {
