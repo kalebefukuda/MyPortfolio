@@ -48,7 +48,7 @@ const Frontend = () => {
 
                 <div>
                     <h3 className="skills_name">Figma</h3>
-                    <span className="skills_level">Basic</span>
+                    <span className="skills_level">Intermediary</span>
                 </div>
                 </div>
    
