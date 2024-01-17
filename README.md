@@ -13,7 +13,7 @@ Projeto desenvolvido para fins de aprendizado <br/>
 <br>
 
 <p align="center">
-<img alt="Portfolio Kalebe Fukuda" src="./scr/assets/capt_MyPortfolio.png" width="100%">
+<img alt="Portfolio Kalebe Fukuda" src="./src/assets/capt_MyPortfolio.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
