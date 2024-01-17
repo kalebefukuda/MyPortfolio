@@ -12,15 +12,13 @@ Projeto desenvolvido para fins de aprendizado <br/>
 </p>
 <br>
 
-<p align="center">
-<img alt="Portfolio Kalebe Fukuda" src="./scr/assets/capt_MyPortfolio.png" width="100%">
-</p>
+![Portfolio Kalebe Fukuda](./src/assets/capt_MyPortfolio.png)
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- React JS
+* HTML e CSS
+* JavaScript
+* Git e Github
+* React JS
