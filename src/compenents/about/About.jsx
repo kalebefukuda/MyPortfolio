@@ -14,7 +14,7 @@ const About = () => {
     <img src={AboutImg} alt="" className='about_img' />
 
     <div className='about_data'>
-    <Info />
+
 
     <p className='about_description'>
         I'm studying Software Engineering, and I'm starting to develop my projects, I'm very happy.

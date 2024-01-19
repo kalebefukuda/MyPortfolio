@@ -10,6 +10,7 @@ import Testimonials from './compenents/testimonials/Testimonials';
 import Contact from './compenents/contact/Contact';
 import Footer from './compenents/footer/Footer';
 import ScrollUp from './compenents/scrollup/ScrollUp';
+import Certificate from './compenents/certificate/Certificate';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Certificate />
         <Work />
         <Testimonials />
         <Contact />
