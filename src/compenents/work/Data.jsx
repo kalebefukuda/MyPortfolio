@@ -1,5 +1,5 @@
 import Work1 from "../../assets/work1.png";
-//import Work2 from "../../assets/work2.png";
+import Work2 from "../../assets/Uber_Project.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.jpg";
@@ -12,13 +12,13 @@ export const projectsData = [
       category: "web",
       demoLink: "https://devlinks-rosy.vercel.app/"
     },
-    // {
-    //   id: 2,
-    //   image: Work2,
-    //   title: "Page Links ",
-    //   category: "web",
-    //   demoLink: "https://devlinks-rosy.vercel.app"
-    // },
+    {
+      id: 2,
+      image: Work2,
+      title: "Uber Website ",
+      category: "web",
+      demoLink: "https://uberwebsite.vercel.app/"
+    },
     {
       id: 3,
       image: Work3 ,
