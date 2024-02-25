@@ -10,19 +10,22 @@ import Testimonials from './compenents/testimonials/Testimonials';
 import Contact from './compenents/contact/Contact';
 import Footer from './compenents/footer/Footer';
 import ScrollUp from './compenents/scrollup/ScrollUp';
+import Certificate from './compenents/certificate/Certificate';
 
 
 function App() {
   return (
     <>
       <Header />
-
+      
       <main className='main'>
+        
         <Home />
         <About />
         <Skills />
         <Services />
         <Qualification />
+        <Certificate />
         <Work />
         <Testimonials />
         <Contact />
