@@ -1,0 +1,25 @@
+.certificate-images{
+    display: flex;
+    max-width: 800px;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.certificate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.larger-image {
+    /* Estilos específicos para imagens maiores */
+    /* Por exemplo: */
+    width: 800px;
+    height: auto;
+}
+
+
+  
+ 

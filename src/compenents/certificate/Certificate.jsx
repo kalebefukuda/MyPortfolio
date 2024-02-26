@@ -14,9 +14,9 @@ register()
 
 const data = [
     {id: 1, image: Discover},
-    {id: 2, image: DataStructureC},
-    {id: 3, image: Git},
-    {id: 4, image: ProFigma},
+    {id: 2, image: DataStructureC, class:'larger-image'},
+    {id: 3, image: Git, class:'larger-image'},
+    {id: 4, image: ProFigma, class:'larger-image'},
 ]
 
 const Certificate = () => {
@@ -25,13 +25,18 @@ const Certificate = () => {
         <h2 className="section_title">Certificate</h2>
         <span className="section_subtitle">My certificates</span>
 
-        <Swiper slidesPerView={1} pagination={{clickable: true}}>
-            {data.map((item) => (
-                <SwiperSlide key={item.id}>
-                    <img src= {item.image} alt='slider' className='slide-item' />
-                </SwiperSlide>
-            ))}
-        </Swiper>
+        <div className="certificate-container">
+            <div className="certificate-images">
+                <Swiper slidesPerView={1} pagination={{clickable: true}} className='swiper-container'>
+                {data.map((item) => (
+                        <SwiperSlide key={item.id} className='slider-pagination'>
+                            <img src={item.image} alt='slider' className= {`slide-item ${item.class}`} />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+            
+        </div>
     </section>
   )
 }
