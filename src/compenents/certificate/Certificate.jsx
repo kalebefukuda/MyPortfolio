@@ -1,19 +1,23 @@
 import React from 'react';
+import './certificate.css';
+import Discover from '../../assets/certificates/Discover.png'
+import Git from "../../assets/certificates/Git.jpg"
+import DataStructureC from "../../assets/certificates/DataStructureC.jpg"
+import ProFigma from "../../assets/certificates/ProFigma.jpg"
 import { register } from 'swiper/element/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+register()
 
 const data = [
-    {id: 1, image: "../../assets/certificates/Discover.png"},
-    {id: 2, image: "../../assets/certificates/DataStructureC.jpg"},
-    {id: 3, image: "../../assets/certificates/Git.jpg"},
-    {id: 4, image: "../../assets/certificates/ProFigma.jpg"},
+    {id: 1, image: Discover},
+    {id: 2, image: DataStructureC},
+    {id: 3, image: Git},
+    {id: 4, image: ProFigma},
 ]
-
-register()
 
 const Certificate = () => {
   return (
