@@ -130,10 +130,44 @@ const Qualification = () => {
                             <span className="qualification_subtitle"> Realtec Automação - Company</span>
 
                             <div className="qualification_calender">
-                                <i className="uil uil-calendar-alt"></i> 2023 - Current
+                                <i className="uil uil-calendar-alt"></i> 2023 -2024
                             </div>
-                        </div> 
+                        </div>                      
+                    </div>
+
+                    <div className="qualification_data">
                         
+                        <div>
+                            <h3 className="qualification_title"> Tailwind CSS</h3>
+                            <span className="qualification_subtitle"> Udemy - Company</span>
+
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> 2024 - Finished
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <div className="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                        <div>
+                            <h3 className="qualification_title">Internship in Software Development</h3>
+
+                            <span className="qualification_subtitle"> Becomex - Company</span>
+
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> 2024 - Current
+                            </div>
+                        </div>                      
                     </div>
                     
                 </div>
